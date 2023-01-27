@@ -9,6 +9,7 @@
         public BookCopiesController(ApplicationDbContext context, IMapper mapper)
         {
             _context = context;
+
             _mapper = mapper;
         }
 
